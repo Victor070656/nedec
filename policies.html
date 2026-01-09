@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Policies | Nedec Projects Limited</title>
+    <meta name="description" content="Nedec Projects Limited policies covering leadership commitment, workforce development, safety (CAHES/ESM), community affairs, health, environment, and security.">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                    },
+                    colors: {
+                        navy: {
+                            50: '#f0f4f8',
+                            100: '#d9e2ec',
+                            200: '#bcccdc',
+                            300: '#9fb3c8',
+                            400: '#829ab1',
+                            500: '#627d98',
+                            600: '#486581',
+                            700: '#334e68',
+                            800: '#243b53',
+                            900: '#102a43',
+                            950: '#061725',
+                        },
+                        gold: {
+                            400: '#d4a853',
+                            500: '#c49a2c',
+                            600: '#a67c1f',
+                            700: '#8a6419',
+                        },
+                        charcoal: '#1a1a2e',
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        html { scroll-behavior: smooth; }
+        .hero-bg {
+            background: linear-gradient(135deg, rgba(6, 23, 37, 0.92) 0%, rgba(26, 26, 46, 0.88) 100%),
+                        url('https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=1920&q=80');
+            background-size: cover;
+            background-position: center;
+        }
+        .policy-card:hover { transform: translateY(-4px); }
+    </style>
+</head>
+<body class="font-sans text-gray-800 bg-white">
+
+    <!-- Navigation -->
+    <nav id="navbar" class="fixed top-0 left-0 right-0 z-50 transition-all duration-300 bg-navy-950/95 backdrop-blur-lg">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-20">
+                <a href="index.html" class="flex items-center space-x-3">
+                    <div class="w-12 h-12 bg-gradient-to-br from-gold-500 to-gold-600 rounded-lg flex items-center justify-center">
+                        <span class="text-white font-bold text-xl">N</span>
+                    </div>
+                    <div>
+                        <span class="text-xl font-bold text-white">Nedec</span>
+                        <span class="text-sm text-gold-400 block -mt-1">Projects Limited</span>
+                    </div>
+                </a>
+
+                <div class="hidden lg:flex items-center space-x-8">
+                    <a href="index.html" class="text-gray-200 hover:text-gold-400 transition-colors">Home</a>
+                    <a href="about.html" class="text-gray-200 hover:text-gold-400 transition-colors">About</a>
+                    <a href="services.html" class="text-gray-200 hover:text-gold-400 transition-colors">Services</a>
+                    <a href="certifications.html" class="text-gray-200 hover:text-gold-400 transition-colors">Certifications</a>
+                    <a href="clients.html" class="text-gray-200 hover:text-gold-400 transition-colors">Clients</a>
+                    <a href="policies.html" class="text-gold-400 font-medium border-b-2 border-gold-500 pb-1">Policies</a>
+                    <a href="contact.html" class="bg-gold-500 hover:bg-gold-600 text-white px-5 py-2.5 rounded-lg font-medium transition-all">Contact Us</a>
+                </div>
+
+                <button id="mobile-menu-btn" class="lg:hidden text-white p-2">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path id="menu-icon" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                    </svg>
+                </button>
+            </div>
+        </div>
+
+        <div id="mobile-menu" class="hidden lg:hidden bg-navy-900/98 backdrop-blur-lg border-t border-white/10">
+            <div class="px-4 py-4 space-y-2">
+                <a href="index.html" class="block py-2.5 text-gray-200 hover:text-gold-400">Home</a>
+                <a href="about.html" class="block py-2.5 text-gray-200 hover:text-gold-400">About</a>
+                <a href="services.html" class="block py-2.5 text-gray-200 hover:text-gold-400">Services</a>
+                <a href="certifications.html" class="block py-2.5 text-gray-200 hover:text-gold-400">Certifications</a>
+                <a href="clients.html" class="block py-2.5 text-gray-200 hover:text-gold-400">Clients</a>
+                <a href="policies.html" class="block py-2.5 text-gold-400 font-medium">Policies</a>
+                <a href="contact.html" class="block py-2.5 text-gold-400 font-medium">Contact Us</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-bg py-32 lg:py-40">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <nav class="text-sm mb-6">
+                <ol class="flex items-center space-x-2">
+                    <li><a href="index.html" class="text-gray-400 hover:text-gold-400">Home</a></li>
+                    <li><span class="text-gray-600">/</span></li>
+                    <li><span class="text-gold-400">Policies</span></li>
+                </ol>
+            </nav>
+            <h1 class="text-4xl sm:text-5xl lg:text-6xl font-bold text-white mb-6">Our Policies</h1>
+            <p class="text-xl text-gray-300 max-w-3xl">Committed to safety, sustainability, and responsible business practices</p>
+        </div>
+    </section>
+
+    <!-- Policies Overview -->
+    <section class="py-24 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <span class="text-gold-600 font-semibold text-sm uppercase tracking-wider">HSES Framework</span>
+                <h2 class="text-4xl font-bold text-navy-900 mt-3 mb-4">Health, Safety & Environment</h2>
+                <p class="text-gray-600 max-w-3xl mx-auto text-lg">Our policies are guided by the CAHES (Community Affairs, Health, Environment, and Security) framework and Enhanced Safety Management (ESM) principles.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Leadership & Commitment -->
+    <section class="py-16 bg-navy-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid lg:grid-cols-2 gap-12 items-center">
+                <div>
+                    <div class="flex items-center mb-6">
+                        <div class="w-16 h-16 bg-gradient-to-br from-gold-400 to-gold-600 rounded-xl flex items-center justify-center mr-6">
+                            <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"></path>
+                            </svg>
+                        </div>
+                        <div>
+                            <span class="text-gold-600 font-semibold text-sm uppercase tracking-wider">Policy 01</span>
+                            <h3 class="text-2xl font-bold text-navy-900">Leadership & Commitment</h3>
+                        </div>
+                    </div>
+                    <p class="text-gray-600 text-lg leading-relaxed">Our management is fully committed to providing a safe working environment for employees, subcontractors, communities, and stakeholders. We believe that leadership commitment is the foundation of effective HSES management.</p>
+                </div>
+                <div class="relative">
+                    <img src="https://images.unsplash.com/photo-1551836022-deb4988cc6c0?w=800&q=80" alt="Leadership" class="rounded-2xl shadow-xl">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Workforce Policy -->
+    <section class="py-16 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid lg:grid-cols-2 gap-12 items-center">
+                <div class="order-2 lg:order-1 relative">
+                    <img src="https://images.unsplash.com/photo-1521737711867-e3b97375f902?w=800&q=80" alt="Team Work" class="rounded-2xl shadow-xl">
+                </div>
+                <div class="order-1 lg:order-2">
+                    <div class="flex items-center mb-6">
+                        <div class="w-16 h-16 bg-gradient-to-br from-navy-700 to-navy-900 rounded-xl flex items-center justify-center mr-6">
+                            <svg class="w-8 h-8 text-gold-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path>
+                            </svg>
+                        </div>
+                        <div>
+                            <span class="text-gold-600 font-semibold text-sm uppercase tracking-wider">Policy 02</span>
+                            <h3 class="text-2xl font-bold text-navy-900">Workforce Development</h3>
+                        </div>
+                    </div>
+                    <p class="text-gray-600 text-lg leading-relaxed">We prioritize manpower development, training, and motivation to foster excellence. Our people are our greatest asset, and we invest in their continuous professional growth and well-being.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Safety Policy -->
+    <section class="py-16 bg-navy-900">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid lg:grid-cols-2 gap-12 items-center">
+                <div>
+                    <div class="flex items-center mb-6">
+                        <div class="w-16 h-16 bg-gradient-to-br from-gold-400 to-gold-600 rounded-xl flex items-center justify-center mr-6">
+                            <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"></path>
+                            </svg>
+                        </div>
+                        <div>
+                            <span class="text-gold-400 font-semibold text-sm uppercase tracking-wider">Policy 03</span>
+                            <h3 class="text-2xl font-bold text-white">Safety Policy</h3>
+                        </div>
+                    </div>
+                    <p class="text-gray-300 text-lg leading-relaxed mb-6">We ensure safe work procedures through our Community Affairs, Health, Environment, and Security (CAHES) Policy. Safety is integrated via Enhanced Safety Management (ESM) principles across all operations.</p>
+                    <div class="grid grid-cols-2 gap-4">
+                        <div class="bg-white/5 border border-white/10 rounded-lg p-4">
+                            <h4 class="text-gold-400 font-semibold mb-1">CAHES</h4>
+                            <p class="text-gray-400 text-sm">Community Affairs, Health, Environment, Security</p>
+                        </div>
+                        <div class="bg-white/5 border border-white/10 rounded-lg p-4">
+                            <h4 class="text-gold-400 font-semibold mb-1">ESM</h4>
+                            <p class="text-gray-400 text-sm">Enhanced Safety Management</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="relative">
+                    <img src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=800&q=80" alt="Safety at Work" class="rounded-2xl shadow-xl">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Policy Cards Grid -->
+    <section class="py-24 bg-navy-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+
+                <!-- Community Affairs -->
+                <div class="policy-card bg-white rounded-2xl p-8 shadow-sm hover:shadow-lg transition-all border border-gray-100">
+                    <div class="w-14 h-14 bg-gradient-to-br from-green-400 to-green-600 rounded-xl flex items-center justify-center mb-6">
+                        <svg class="w-7 h-7 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-navy-900 mb-3">Community Affairs</h3>
+                    <p class="text-gray-600">We maintain strong relationships with host communities by communicating policies, listening to needs, and participating in social, educational, and cultural initiatives.</p>
+                </div>
+
+                <!-- Health -->
+                <div class="policy-card bg-white rounded-2xl p-8 shadow-sm hover:shadow-lg transition-all border border-gray-100">
+                    <div class="w-14 h-14 bg-gradient-to-br from-red-400 to-red-600 rounded-xl flex items-center justify-center mb-6">
+                        <svg class="w-7 h-7 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-navy-900 mb-3">Health</h3>
+                    <p class="text-gray-600">We promote preventive healthcare, with policies on drugs, alcohol, and smoking. Retainer clinics include Data Medical Center and CUMI Medical Centre for immediate medical attention.</p>
+                </div>
+
+                <!-- Environment -->
+                <div class="policy-card bg-white rounded-2xl p-8 shadow-sm hover:shadow-lg transition-all border border-gray-100">
+                    <div class="w-14 h-14 bg-gradient-to-br from-emerald-400 to-emerald-600 rounded-xl flex items-center justify-center mb-6">
+                        <svg class="w-7 h-7 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-navy-900 mb-3">Environment</h3>
+                    <p class="text-gray-600">Committed to conservation with waste management, minimization, and eradication programs. We conduct our operations in an environmentally responsible manner.</p>
+                </div>
+
+                <!-- Security -->
+                <div class="policy-card bg-white rounded-2xl p-8 shadow-sm hover:shadow-lg transition-all border border-gray-100">
+                    <div class="w-14 h-14 bg-gradient-to-br from-blue-400 to-blue-600 rounded-xl flex items-center justify-center mb-6">
+                        <svg class="w-7 h-7 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-navy-900 mb-3">Security</h3>
+                    <p class="text-gray-600">Top priority for personnel and assets, ensured by Nigerian Police Force, private security, and community guards. Our HSES function is led by a professional safety engineer.</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Policy Statement -->
+    <section class="py-24 bg-white">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="bg-gradient-to-br from-navy-800 to-navy-900 rounded-2xl p-10 lg:p-16 text-center">
+                <svg class="w-16 h-16 text-gold-400 mx-auto mb-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"></path>
+                </svg>
+                <h2 class="text-3xl font-bold text-white mb-6">Our HSES Commitment</h2>
+                <p class="text-xl text-gray-300 leading-relaxed mb-8">Nedec Projects Limited is committed to conducting all business activities in a manner that ensures the health, safety, and security of our employees, contractors, communities, and the environment. We believe that zero incidents is achievable through proper planning, training, and execution.</p>
+                <div class="flex flex-wrap justify-center gap-8">
+                    <div class="text-center">
+                        <div class="text-4xl font-bold text-gold-400">Zero</div>
+                        <div class="text-gray-400">Incidents Target</div>
+                    </div>
+                    <div class="text-center">
+                        <div class="text-4xl font-bold text-gold-400">100%</div>
+                        <div class="text-gray-400">Compliance</div>
+                    </div>
+                    <div class="text-center">
+                        <div class="text-4xl font-bold text-gold-400">Always</div>
+                        <div class="text-gray-400">Improving</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="py-24 bg-navy-50">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="text-4xl font-bold text-navy-900 mb-6">Partner With a Responsible Company</h2>
+            <p class="text-xl text-gray-600 mb-10">Work with a company that prioritizes safety, community, and environmental stewardship</p>
+            <div class="flex flex-wrap justify-center gap-4">
+                <a href="contact.html" class="inline-flex items-center px-8 py-4 bg-gold-500 hover:bg-gold-600 text-white font-semibold rounded-lg transition-all">
+                    Contact Us
+                    <svg class="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
+                    </svg>
+                </a>
+                <a href="certifications.html" class="inline-flex items-center px-8 py-4 bg-white border-2 border-navy-900 hover:bg-navy-900 hover:text-white text-navy-900 font-semibold rounded-lg transition-all">
+                    View Certifications
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-navy-950 text-white pt-20 pb-8">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
+                <div>
+                    <div class="flex items-center space-x-3 mb-6">
+                        <div class="w-12 h-12 bg-gradient-to-br from-gold-500 to-gold-600 rounded-lg flex items-center justify-center">
+                            <span class="text-white font-bold text-xl">N</span>
+                        </div>
+                        <div>
+                            <span class="text-xl font-bold">Nedec</span>
+                            <span class="text-sm text-gold-400 block -mt-1">Projects Limited</span>
+                        </div>
+                    </div>
+                    <p class="text-gray-400 leading-relaxed mb-6">Indigenous Nigerian oilfield service company delivering excellence since 2005.</p>
+                </div>
+
+                <div>
+                    <h3 class="text-lg font-semibold mb-6">Quick Links</h3>
+                    <ul class="space-y-3">
+                        <li><a href="index.html" class="text-gray-400 hover:text-gold-400 transition-colors">Home</a></li>
+                        <li><a href="about.html" class="text-gray-400 hover:text-gold-400 transition-colors">About Us</a></li>
+                        <li><a href="services.html" class="text-gray-400 hover:text-gold-400 transition-colors">Services</a></li>
+                        <li><a href="clients.html" class="text-gray-400 hover:text-gold-400 transition-colors">Clients</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3 class="text-lg font-semibold mb-6">Services</h3>
+                    <ul class="space-y-3">
+                        <li><a href="services.html" class="text-gray-400 hover:text-gold-400 transition-colors">Well Completion</a></li>
+                        <li><a href="services.html" class="text-gray-400 hover:text-gold-400 transition-colors">Wireline Services</a></li>
+                        <li><a href="services.html" class="text-gray-400 hover:text-gold-400 transition-colors">Equipment Supply</a></li>
+                        <li><a href="services.html" class="text-gray-400 hover:text-gold-400 transition-colors">Civil Construction</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3 class="text-lg font-semibold mb-6">Contact</h3>
+                    <ul class="space-y-4">
+                        <li class="flex items-start">
+                            <svg class="w-5 h-5 text-gold-400 mt-1 mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path>
+                            </svg>
+                            <span class="text-gray-400">Plot 231, Trans-Amadi Industrial Layout, Port Harcourt</span>
+                        </li>
+                        <li class="flex items-center">
+                            <svg class="w-5 h-5 text-gold-400 mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path>
+                            </svg>
+                            <span class="text-gray-400">09033689123, 08095026958</span>
+                        </li>
+                        <li class="flex items-center">
+                            <svg class="w-5 h-5 text-gold-400 mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
+                            </svg>
+                            <span class="text-gray-400">info@nedecng.com</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="border-t border-navy-800 pt-8">
+                <div class="flex flex-col md:flex-row justify-between items-center">
+                    <p class="text-gray-500 text-sm mb-4 md:mb-0">© 2025 Nedec Projects Limited. All rights reserved. RC 620882</p>
+                    <div class="flex space-x-6 text-sm">
+                        <a href="#" class="text-gray-500 hover:text-gold-400 transition-colors">Privacy Policy</a>
+                        <a href="#" class="text-gray-500 hover:text-gold-400 transition-colors">Terms of Service</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        const mobileMenuBtn = document.getElementById('mobile-menu-btn');
+        const mobileMenu = document.getElementById('mobile-menu');
+        const menuIcon = document.getElementById('menu-icon');
+
+        mobileMenuBtn.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+            if (mobileMenu.classList.contains('hidden')) {
+                menuIcon.setAttribute('d', 'M4 6h16M4 12h16M4 18h16');
+            } else {
+                menuIcon.setAttribute('d', 'M6 18L18 6M6 6l12 12');
+            }
+        });
+    </script>
+</body>
+</html>

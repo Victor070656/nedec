@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | Nedec Projects Limited</title>
+    <meta name="description" content="Get in touch with Nedec Projects Limited. Contact us for oilfield services, well completion, wireline, DST & TCP, and civil construction in Nigeria.">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                    },
+                    colors: {
+                        navy: {
+                            50: '#f0f4f8',
+                            100: '#d9e2ec',
+                            200: '#bcccdc',
+                            300: '#9fb3c8',
+                            400: '#829ab1',
+                            500: '#627d98',
+                            600: '#486581',
+                            700: '#334e68',
+                            800: '#243b53',
+                            900: '#102a43',
+                            950: '#061725',
+                        },
+                        gold: {
+                            400: '#d4a853',
+                            500: '#c49a2c',
+                            600: '#a67c1f',
+                            700: '#8a6419',
+                        },
+                        charcoal: '#1a1a2e',
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        html { scroll-behavior: smooth; }
+        .hero-bg {
+            background: linear-gradient(135deg, rgba(6, 23, 37, 0.92) 0%, rgba(26, 26, 46, 0.88) 100%),
+                        url('https://images.unsplash.com/photo-1423666639041-f56000c27a9a?w=1920&q=80');
+            background-size: cover;
+            background-position: center;
+        }
+    </style>
+</head>
+<body class="font-sans text-gray-800 bg-white">
+
+    <!-- Navigation -->
+    <nav id="navbar" class="fixed top-0 left-0 right-0 z-50 transition-all duration-300 bg-navy-950/95 backdrop-blur-lg">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-20">
+                <a href="index.html" class="flex items-center space-x-3">
+                    <div class="w-12 h-12 bg-gradient-to-br from-gold-500 to-gold-600 rounded-lg flex items-center justify-center">
+                        <span class="text-white font-bold text-xl">N</span>
+                    </div>
+                    <div>
+                        <span class="text-xl font-bold text-white">Nedec</span>
+                        <span class="text-sm text-gold-400 block -mt-1">Projects Limited</span>
+                    </div>
+                </a>
+
+                <div class="hidden lg:flex items-center space-x-8">
+                    <a href="index.html" class="text-gray-200 hover:text-gold-400 transition-colors">Home</a>
+                    <a href="about.html" class="text-gray-200 hover:text-gold-400 transition-colors">About</a>
+                    <a href="services.html" class="text-gray-200 hover:text-gold-400 transition-colors">Services</a>
+                    <a href="certifications.html" class="text-gray-200 hover:text-gold-400 transition-colors">Certifications</a>
+                    <a href="clients.html" class="text-gray-200 hover:text-gold-400 transition-colors">Clients</a>
+                    <a href="policies.html" class="text-gray-200 hover:text-gold-400 transition-colors">Policies</a>
+                    <a href="contact.html" class="bg-gold-500 hover:bg-gold-600 text-white px-5 py-2.5 rounded-lg font-medium transition-all">Contact Us</a>
+                </div>
+
+                <button id="mobile-menu-btn" class="lg:hidden text-white p-2">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path id="menu-icon" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                    </svg>
+                </button>
+            </div>
+        </div>
+
+        <div id="mobile-menu" class="hidden lg:hidden bg-navy-900/98 backdrop-blur-lg border-t border-white/10">
+            <div class="px-4 py-4 space-y-2">
+                <a href="index.html" class="block py-2.5 text-gray-200 hover:text-gold-400">Home</a>
+                <a href="about.html" class="block py-2.5 text-gray-200 hover:text-gold-400">About</a>
+                <a href="services.html" class="block py-2.5 text-gray-200 hover:text-gold-400">Services</a>
+                <a href="certifications.html" class="block py-2.5 text-gray-200 hover:text-gold-400">Certifications</a>
+                <a href="clients.html" class="block py-2.5 text-gray-200 hover:text-gold-400">Clients</a>
+                <a href="policies.html" class="block py-2.5 text-gray-200 hover:text-gold-400">Policies</a>
+                <a href="contact.html" class="block py-2.5 text-gold-400 font-medium">Contact Us</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-bg py-32 lg:py-40">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <nav class="text-sm mb-6">
+                <ol class="flex items-center space-x-2">
+                    <li><a href="index.html" class="text-gray-400 hover:text-gold-400">Home</a></li>
+                    <li><span class="text-gray-600">/</span></li>
+                    <li><span class="text-gold-400">Contact Us</span></li>
+                </ol>
+            </nav>
+            <h1 class="text-4xl sm:text-5xl lg:text-6xl font-bold text-white mb-6">Get In Touch</h1>
+            <p class="text-xl text-gray-300 max-w-3xl">We'd love to hear from you. Reach out to discuss how we can support your oilfield and construction needs.</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="py-24 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid lg:grid-cols-2 gap-16">
+
+                <!-- Contact Information -->
+                <div>
+                    <h2 class="text-3xl font-bold text-navy-900 mb-8">Contact Information</h2>
+
+                    <!-- Port Harcourt Office -->
+                    <div class="bg-navy-900 rounded-2xl p-8 text-white mb-8">
+                        <div class="flex items-center mb-6">
+                            <div class="w-12 h-12 bg-gold-500 rounded-lg flex items-center justify-center mr-4">
+                                <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path>
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path>
+                                </svg>
+                            </div>
+                            <div>
+                                <h3 class="text-xl font-bold">Port Harcourt Office</h3>
+                                <p class="text-gold-400 text-sm">Operations Base</p>
+                            </div>
+                        </div>
+                        <div class="space-y-4">
+                            <div class="flex items-start">
+                                <svg class="w-5 h-5 text-gold-400 mt-1 mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path>
+                                </svg>
+                                <p class="text-gray-300">Plot 231, Trans-Amadi Industrial Layout, Port Harcourt, Rivers State</p>
+                            </div>
+                            <div class="flex items-center">
+                                <svg class="w-5 h-5 text-gold-400 mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path>
+                                </svg>
+                                <p class="text-gray-300">09033689123, 08095026958</p>
+                            </div>
+                            <div class="flex items-center">
+                                <svg class="w-5 h-5 text-gold-400 mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
+                                </svg>
+                                <p class="text-gray-300">albertkanu.nedecng@gmail.com, info@nedecng.com</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Lagos Office -->
+                    <div class="bg-navy-50 rounded-2xl p-8 mb-8">
+                        <div class="flex items-center mb-6">
+                            <div class="w-12 h-12 bg-navy-900 rounded-lg flex items-center justify-center mr-4">
+                                <svg class="w-6 h-6 text-gold-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"></path>
+                                </svg>
+                            </div>
+                            <div>
+                                <h3 class="text-xl font-bold text-navy-900">Lagos Office</h3>
+                                <p class="text-gray-500 text-sm">Administration</p>
+                            </div>
+                        </div>
+                        <div class="space-y-4">
+                            <div class="flex items-start">
+                                <svg class="w-5 h-5 text-navy-600 mt-1 mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path>
+                                </svg>
+                                <p class="text-gray-600">63, Olatilewa Street, Off Olufemi Road, Via Ogunlana Drive, Surulere, Lagos</p>
+                            </div>
+                            <div class="flex items-center">
+                                <svg class="w-5 h-5 text-navy-600 mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
+                                </svg>
+                                <p class="text-gray-600">info@nedec.com.ng</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Registered Address -->
+                    <div class="bg-white border border-gray-200 rounded-2xl p-8">
+                        <h3 class="text-lg font-bold text-navy-900 mb-4">Registered Address</h3>
+                        <p class="text-gray-600">1, Nwakaohu Street, Rumunduru, Oroigwe, Port Harcourt, Rivers State</p>
+                    </div>
+                </div>
+
+                <!-- Contact Form -->
+                <div>
+                    <h2 class="text-3xl font-bold text-navy-900 mb-8">Send Us a Message</h2>
+                    <form id="contact-form" class="space-y-6">
+                        <div class="grid sm:grid-cols-2 gap-6">
+                            <div>
+                                <label for="name" class="block text-sm font-medium text-gray-700 mb-2">Full Name *</label>
+                                <input type="text" id="name" name="name" required class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-gold-500 focus:border-gold-500 outline-none transition-all" placeholder="John Doe">
+                            </div>
+                            <div>
+                                <label for="email" class="block text-sm font-medium text-gray-700 mb-2">Email Address *</label>
+                                <input type="email" id="email" name="email" required class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-gold-500 focus:border-gold-500 outline-none transition-all" placeholder="john@example.com">
+                            </div>
+                        </div>
+                        <div class="grid sm:grid-cols-2 gap-6">
+                            <div>
+                                <label for="phone" class="block text-sm font-medium text-gray-700 mb-2">Phone Number</label>
+                                <input type="tel" id="phone" name="phone" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-gold-500 focus:border-gold-500 outline-none transition-all" placeholder="+234 XXX XXX XXXX">
+                            </div>
+                            <div>
+                                <label for="subject" class="block text-sm font-medium text-gray-700 mb-2">Subject *</label>
+                                <select id="subject" name="subject" required class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-gold-500 focus:border-gold-500 outline-none transition-all bg-white">
+                                    <option value="">Select a subject</option>
+                                    <option value="services">General Inquiry</option>
+                                    <option value="quote">Request a Quote</option>
+                                    <option value="well-completion">Well Completion Services</option>
+                                    <option value="wireline">Wireline/Slickline Services</option>
+                                    <option value="equipment">Equipment Supply</option>
+                                    <option value="construction">Civil Construction</option>
+                                    <option value="other">Other</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div>
+                            <label for="message" class="block text-sm font-medium text-gray-700 mb-2">Message *</label>
+                            <textarea id="message" name="message" rows="5" required class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-gold-500 focus:border-gold-500 outline-none transition-all resize-none" placeholder="Tell us about your project or inquiry..."></textarea>
+                        </div>
+                        <button type="submit" class="w-full px-8 py-4 bg-gold-500 hover:bg-gold-600 text-white font-semibold rounded-lg transition-all flex items-center justify-center">
+                            <span>Send Message</span>
+                            <svg class="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8"></path>
+                            </svg>
+                        </button>
+                    </form>
+                    <div id="form-success" class="hidden mt-6 p-4 bg-green-100 border border-green-400 text-green-700 rounded-lg">
+                        Thank you for your message! We will get back to you shortly.
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Map Section -->
+    <section class="h-96 bg-navy-50">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3975.882345678901!2d7.0498!3d4.8156!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1032954b3c58c8c9%3A0x6a0c0c0c0c0c0c0!2sTrans%20Amadi%20Industrial%20Layout%2C%20Port%20Harcourt!5e0!3m2!1sen!2sng!4v1234567890" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+
+    <!-- Quick Links -->
+    <section class="py-24 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold text-navy-900 mb-4">Quick Links</h2>
+                <p class="text-gray-600">Explore more about Nedec Projects Limited</p>
+            </div>
+            <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+                <a href="about.html" class="group bg-navy-50 rounded-xl p-6 text-center hover:bg-navy-900 transition-all">
+                    <svg class="w-10 h-10 text-navy-700 group-hover:text-gold-400 mx-auto mb-4 transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                    </svg>
+                    <h3 class="text-lg font-bold text-navy-900 group-hover:text-white transition-colors">About Us</h3>
+                    <p class="text-gray-500 text-sm mt-2 group-hover:text-gray-400 transition-colors">Learn more about our company</p>
+                </a>
+                <a href="services.html" class="group bg-navy-50 rounded-xl p-6 text-center hover:bg-navy-900 transition-all">
+                    <svg class="w-10 h-10 text-navy-700 group-hover:text-gold-400 mx-auto mb-4 transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z"></path>
+                    </svg>
+                    <h3 class="text-lg font-bold text-navy-900 group-hover:text-white transition-colors">Our Services</h3>
+                    <p class="text-gray-500 text-sm mt-2 group-hover:text-gray-400 transition-colors">View all our services</p>
+                </a>
+                <a href="certifications.html" class="group bg-navy-50 rounded-xl p-6 text-center hover:bg-navy-900 transition-all">
+                    <svg class="w-10 h-10 text-navy-700 group-hover:text-gold-400 mx-auto mb-4 transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"></path>
+                    </svg>
+                    <h3 class="text-lg font-bold text-navy-900 group-hover:text-white transition-colors">Certifications</h3>
+                    <p class="text-gray-500 text-sm mt-2 group-hover:text-gray-400 transition-colors">View our certifications</p>
+                </a>
+                <a href="clients.html" class="group bg-navy-50 rounded-xl p-6 text-center hover:bg-navy-900 transition-all">
+                    <svg class="w-10 h-10 text-navy-700 group-hover:text-gold-400 mx-auto mb-4 transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path>
+                    </svg>
+                    <h3 class="text-lg font-bold text-navy-900 group-hover:text-white transition-colors">Our Clients</h3>
+                    <p class="text-gray-500 text-sm mt-2 group-hover:text-gray-400 transition-colors">See our client list</p>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-navy-950 text-white pt-20 pb-8">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
+                <div>
+                    <div class="flex items-center space-x-3 mb-6">
+                        <div class="w-12 h-12 bg-gradient-to-br from-gold-500 to-gold-600 rounded-lg flex items-center justify-center">
+                            <span class="text-white font-bold text-xl">N</span>
+                        </div>
+                        <div>
+                            <span class="text-xl font-bold">Nedec</span>
+                            <span class="text-sm text-gold-400 block -mt-1">Projects Limited</span>
+                        </div>
+                    </div>
+                    <p class="text-gray-400 leading-relaxed mb-6">Indigenous Nigerian oilfield service company delivering excellence since 2005.</p>
+                </div>
+
+                <div>
+                    <h3 class="text-lg font-semibold mb-6">Quick Links</h3>
+                    <ul class="space-y-3">
+                        <li><a href="index.html" class="text-gray-400 hover:text-gold-400 transition-colors">Home</a></li>
+                        <li><a href="about.html" class="text-gray-400 hover:text-gold-400 transition-colors">About Us</a></li>
+                        <li><a href="services.html" class="text-gray-400 hover:text-gold-400 transition-colors">Services</a></li>
+                        <li><a href="clients.html" class="text-gray-400 hover:text-gold-400 transition-colors">Clients</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3 class="text-lg font-semibold mb-6">Services</h3>
+                    <ul class="space-y-3">
+                        <li><a href="services.html" class="text-gray-400 hover:text-gold-400 transition-colors">Well Completion</a></li>
+                        <li><a href="services.html" class="text-gray-400 hover:text-gold-400 transition-colors">Wireline Services</a></li>
+                        <li><a href="services.html" class="text-gray-400 hover:text-gold-400 transition-colors">Equipment Supply</a></li>
+                        <li><a href="services.html" class="text-gray-400 hover:text-gold-400 transition-colors">Civil Construction</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3 class="text-lg font-semibold mb-6">Contact</h3>
+                    <ul class="space-y-4">
+                        <li class="flex items-start">
+                            <svg class="w-5 h-5 text-gold-400 mt-1 mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path>
+                            </svg>
+                            <span class="text-gray-400">Plot 231, Trans-Amadi Industrial Layout, Port Harcourt</span>
+                        </li>
+                        <li class="flex items-center">
+                            <svg class="w-5 h-5 text-gold-400 mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path>
+                            </svg>
+                            <span class="text-gray-400">09033689123, 08095026958</span>
+                        </li>
+                        <li class="flex items-center">
+                            <svg class="w-5 h-5 text-gold-400 mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
+                            </svg>
+                            <span class="text-gray-400">info@nedecng.com</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="border-t border-navy-800 pt-8">
+                <div class="flex flex-col md:flex-row justify-between items-center">
+                    <p class="text-gray-500 text-sm mb-4 md:mb-0">© 2025 Nedec Projects Limited. All rights reserved. RC 620882</p>
+                    <div class="flex space-x-6 text-sm">
+                        <a href="#" class="text-gray-500 hover:text-gold-400 transition-colors">Privacy Policy</a>
+                        <a href="#" class="text-gray-500 hover:text-gold-400 transition-colors">Terms of Service</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile Menu Toggle
+        const mobileMenuBtn = document.getElementById('mobile-menu-btn');
+        const mobileMenu = document.getElementById('mobile-menu');
+        const menuIcon = document.getElementById('menu-icon');
+
+        mobileMenuBtn.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+            if (mobileMenu.classList.contains('hidden')) {
+                menuIcon.setAttribute('d', 'M4 6h16M4 12h16M4 18h16');
+            } else {
+                menuIcon.setAttribute('d', 'M6 18L18 6M6 6l12 12');
+            }
+        });
+
+        // Contact Form Submission
+        const contactForm = document.getElementById('contact-form');
+        const formSuccess = document.getElementById('form-success');
+
+        contactForm.addEventListener('submit', (e) => {
+            e.preventDefault();
+            // Simulate form submission
+            contactForm.classList.add('hidden');
+            formSuccess.classList.remove('hidden');
+            setTimeout(() => {
+                contactForm.reset();
+                contactForm.classList.remove('hidden');
+                formSuccess.classList.add('hidden');
+            }, 5000);
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Clients | Nedec Projects Limited</title>
+    <meta name="description" content="Nedec Projects Limited clients include NPDC, Neconde, Heritage, Belema Oil, Prime E&P, Oriental Energy, SEPLAT, AGIP, ExxonMobil, and Indorama.">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                    },
+                    colors: {
+                        navy: {
+                            50: '#f0f4f8',
+                            100: '#d9e2ec',
+                            200: '#bcccdc',
+                            300: '#9fb3c8',
+                            400: '#829ab1',
+                            500: '#627d98',
+                            600: '#486581',
+                            700: '#334e68',
+                            800: '#243b53',
+                            900: '#102a43',
+                            950: '#061725',
+                        },
+                        gold: {
+                            400: '#d4a853',
+                            500: '#c49a2c',
+                            600: '#a67c1f',
+                            700: '#8a6419',
+                        },
+                        charcoal: '#1a1a2e',
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        html { scroll-behavior: smooth; }
+        .hero-bg {
+            background: linear-gradient(135deg, rgba(6, 23, 37, 0.92) 0%, rgba(26, 26, 46, 0.88) 100%),
+                        url('https://images.pexels.com/photos/1585322/pexels-photo-1585322.jpeg?auto=compress&cs=tinysrgb&w=1920');
+            background-size: cover;
+            background-position: center;
+        }
+        .client-card:hover { transform: translateY(-4px); }
+    </style>
+</head>
+<body class="font-sans text-gray-800 bg-white">
+
+    <!-- Navigation -->
+    <nav id="navbar" class="fixed top-0 left-0 right-0 z-50 transition-all duration-300 bg-navy-950/95 backdrop-blur-lg">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-20">
+                <a href="index.html" class="flex items-center space-x-3">
+                    <div class="w-12 h-12 bg-gradient-to-br from-gold-500 to-gold-600 rounded-lg flex items-center justify-center">
+                        <span class="text-white font-bold text-xl">N</span>
+                    </div>
+                    <div>
+                        <span class="text-xl font-bold text-white">Nedec</span>
+                        <span class="text-sm text-gold-400 block -mt-1">Projects Limited</span>
+                    </div>
+                </a>
+
+                <div class="hidden lg:flex items-center space-x-8">
+                    <a href="index.html" class="text-gray-200 hover:text-gold-400 transition-colors">Home</a>
+                    <a href="about.html" class="text-gray-200 hover:text-gold-400 transition-colors">About</a>
+                    <a href="services.html" class="text-gray-200 hover:text-gold-400 transition-colors">Services</a>
+                    <a href="certifications.html" class="text-gray-200 hover:text-gold-400 transition-colors">Certifications</a>
+                    <a href="clients.html" class="text-gold-400 font-medium border-b-2 border-gold-500 pb-1">Clients</a>
+                    <a href="policies.html" class="text-gray-200 hover:text-gold-400 transition-colors">Policies</a>
+                    <a href="contact.html" class="bg-gold-500 hover:bg-gold-600 text-white px-5 py-2.5 rounded-lg font-medium transition-all">Contact Us</a>
+                </div>
+
+                <button id="mobile-menu-btn" class="lg:hidden text-white p-2">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path id="menu-icon" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                    </svg>
+                </button>
+            </div>
+        </div>
+
+        <div id="mobile-menu" class="hidden lg:hidden bg-navy-900/98 backdrop-blur-lg border-t border-white/10">
+            <div class="px-4 py-4 space-y-2">
+                <a href="index.html" class="block py-2.5 text-gray-200 hover:text-gold-400">Home</a>
+                <a href="about.html" class="block py-2.5 text-gray-200 hover:text-gold-400">About</a>
+                <a href="services.html" class="block py-2.5 text-gray-200 hover:text-gold-400">Services</a>
+                <a href="certifications.html" class="block py-2.5 text-gray-200 hover:text-gold-400">Certifications</a>
+                <a href="clients.html" class="block py-2.5 text-gold-400 font-medium">Clients</a>
+                <a href="policies.html" class="block py-2.5 text-gray-200 hover:text-gold-400">Policies</a>
+                <a href="contact.html" class="block py-2.5 text-gold-400 font-medium">Contact Us</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-bg py-32 lg:py-40">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <nav class="text-sm mb-6">
+                <ol class="flex items-center space-x-2">
+                    <li><a href="index.html" class="text-gray-400 hover:text-gold-400">Home</a></li>
+                    <li><span class="text-gray-600">/</span></li>
+                    <li><span class="text-gold-400">Our Clients</span></li>
+                </ol>
+            </nav>
+            <h1 class="text-4xl sm:text-5xl lg:text-6xl font-bold text-white mb-6">Our Valued Clients</h1>
+            <p class="text-xl text-gray-300 max-w-3xl">Trusted by leading companies in the oil and gas sector to deliver excellence</p>
+        </div>
+    </section>
+
+    <!-- Clients Overview -->
+    <section class="py-24 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <span class="text-gold-600 font-semibold text-sm uppercase tracking-wider">Partnerships</span>
+                <h2 class="text-4xl font-bold text-navy-900 mt-3 mb-4">Companies We've Worked With</h2>
+                <p class="text-gray-600 max-w-3xl mx-auto text-lg">We have partnered with leading companies in the oil and gas sector, often in collaboration with our technical partners. These partnerships demonstrate our capability to deliver quality services that meet industry standards.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Major Clients Grid -->
+    <section class="py-12 bg-navy-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+
+                <!-- NPDC -->
+                <div class="client-card bg-white rounded-xl p-8 shadow-sm hover:shadow-lg transition-all border border-gray-100">
+                    <div class="flex items-center mb-4">
+                        <div class="w-14 h-14 bg-navy-900 rounded-lg flex items-center justify-center mr-4">
+                            <span class="text-xl font-bold text-gold-400">NPDC</span>
+                        </div>
+                        <div>
+                            <h3 class="text-lg font-bold text-navy-900">NPDC</h3>
+                            <p class="text-gray-500 text-sm">Nigerian Petroleum Development Company</p>
+                        </div>
+                    </div>
+                    <p class="text-gray-600 text-sm">OML 42, OML 26, OML 111 – E-line/Slickline and Wellhead Maintenance</p>
+                </div>
+
+                <!-- Neconde -->
+                <div class="client-card bg-white rounded-xl p-8 shadow-sm hover:shadow-lg transition-all border border-gray-100">
+                    <div class="flex items-center mb-4">
+                        <div class="w-14 h-14 bg-navy-900 rounded-lg flex items-center justify-center mr-4">
+                            <span class="text-xl font-bold text-gold-400">NE</span>
+                        </div>
+                        <div>
+                            <h3 class="text-lg font-bold text-navy-900">Neconde Energy</h3>
+                            <p class="text-gray-500 text-sm">Independent Oil Company</p>
+                        </div>
+                    </div>
+                    <p class="text-gray-600 text-sm">E-line/Slickline services for well intervention operations</p>
+                </div>
+
+                <!-- Heritage -->
+                <div class="client-card bg-white rounded-xl p-8 shadow-sm hover:shadow-lg transition-all border border-gray-100">
+                    <div class="flex items-center mb-4">
+                        <div class="w-14 h-14 bg-navy-900 rounded-lg flex items-center justify-center mr-4">
+                            <span class="text-xl font-bold text-gold-400">HE</span>
+                        </div>
+                        <div>
+                            <h3 class="text-lg font-bold text-navy-900">Heritage</h3>
+                            <p class="text-gray-500 text-sm">Heritage Energy Operational Services</p>
+                        </div>
+                    </div>
+                    <p class="text-gray-600 text-sm">E-line/Slickline services for production optimization</p>
+                </div>
+
+                <!-- Belema Oil -->
+                <div class="client-card bg-white rounded-xl p-8 shadow-sm hover:shadow-lg transition-all border border-gray-100">
+                    <div class="flex items-center mb-4">
+                        <div class="w-14 h-14 bg-navy-900 rounded-lg flex items-center justify-center mr-4">
+                            <span class="text-xl font-bold text-gold-400">BO</span>
+                        </div>
+                        <div>
+                            <h3 class="text-lg font-bold text-navy-900">Belema Oil</h3>
+                            <p class="text-gray-500 text-sm">Belemaoil Producing Limited</p>
+                        </div>
+                    </div>
+                    <p class="text-gray-600 text-sm">E-line/Slickline well intervention and maintenance services</p>
+                </div>
+
+                <!-- Prime E&P -->
+                <div class="client-card bg-white rounded-xl p-8 shadow-sm hover:shadow-lg transition-all border border-gray-100">
+                    <div class="flex items-center mb-4">
+                        <div class="w-14 h-14 bg-navy-900 rounded-lg flex items-center justify-center mr-4">
+                            <span class="text-xl font-bold text-gold-400">PE</span>
+                        </div>
+                        <div>
+                            <h3 class="text-lg font-bold text-navy-900">Prime E&P</h3>
+                            <p class="text-gray-500 text-sm">Prime Exploration and Production</p>
+                        </div>
+                    </div>
+                    <p class="text-gray-600 text-sm">E-line, DST/TCP, Coiled Tubing, Pumping operations</p>
+                </div>
+
+                <!-- Oriental Energy -->
+                <div class="client-card bg-white rounded-xl p-8 shadow-sm hover:shadow-lg transition-all border border-gray-100">
+                    <div class="flex items-center mb-4">
+                        <div class="w-14 h-14 bg-navy-900 rounded-lg flex items-center justify-center mr-4">
+                            <span class="text-xl font-bold text-gold-400">OE</span>
+                        </div>
+                        <div>
+                            <h3 class="text-lg font-bold text-navy-900">Oriental Energy</h3>
+                            <p class="text-gray-500 text-sm">Oriental Energy Resources</p>
+                        </div>
+                    </div>
+                    <p class="text-gray-600 text-sm">Subcontractor to AOS for CONOIL/SPDC operations</p>
+                </div>
+
+                <!-- SEPLAT -->
+                <div class="client-card bg-white rounded-xl p-8 shadow-sm hover:shadow-lg transition-all border border-gray-100">
+                    <div class="flex items-center mb-4">
+                        <div class="w-14 h-14 bg-navy-900 rounded-lg flex items-center justify-center mr-4">
+                            <span class="text-xl font-bold text-gold-400">SE</span>
+                        </div>
+                        <div>
+                            <h3 class="text-lg font-bold text-navy-900">SEPLAT</h3>
+                            <p class="text-gray-500 text-sm">Seplat Petroleum Development Company</p>
+                        </div>
+                    </div>
+                    <p class="text-gray-600 text-sm">Subcontractor to Geoplex for specialized services</p>
+                </div>
+
+                <!-- AGIP -->
+                <div class="client-card bg-white rounded-xl p-8 shadow-sm hover:shadow-lg transition-all border border-gray-100">
+                    <div class="flex items-center mb-4">
+                        <div class="w-14 h-14 bg-navy-900 rounded-lg flex items-center justify-center mr-4">
+                            <span class="text-xl font-bold text-gold-400">AG</span>
+                        </div>
+                        <div>
+                            <h3 class="text-lg font-bold text-navy-900">AGIP</h3>
+                            <p class="text-gray-500 text-sm">NAOC / Nigerian Agip Oil Company</p>
+                        </div>
+                    </div>
+                    <p class="text-gray-600 text-sm">Subcontractor to Geoplex for well intervention services</p>
+                </div>
+
+                <!-- ExxonMobil -->
+                <div class="client-card bg-white rounded-xl p-8 shadow-sm hover:shadow-lg transition-all border border-gray-100">
+                    <div class="flex items-center mb-4">
+                        <div class="w-14 h-14 bg-navy-900 rounded-lg flex items-center justify-center mr-4">
+                            <span class="text-xl font-bold text-gold-400">EM</span>
+                        </div>
+                        <div>
+                            <h3 class="text-lg font-bold text-navy-900">ExxonMobil</h3>
+                            <p class="text-gray-500 text-sm">Mobil Producing Nigeria Unlimited</p>
+                        </div>
+                    </div>
+                    <p class="text-gray-600 text-sm">Joint BHP Operations with Prudential</p>
+                </div>
+
+                <!-- Indorama -->
+                <div class="client-card bg-white rounded-xl p-8 shadow-sm hover:shadow-lg transition-all border border-gray-100">
+                    <div class="flex items-center mb-4">
+                        <div class="w-14 h-14 bg-navy-900 rounded-lg flex items-center justify-center mr-4">
+                            <span class="text-xl font-bold text-gold-400">IN</span>
+                        </div>
+                        <div>
+                            <h3 class="text-lg font-bold text-navy-900">Indorama</h3>
+                            <p class="text-gray-500 text-sm">Indorama Eleme Petrochemical</p>
+                        </div>
+                    </div>
+                    <p class="text-gray-600 text-sm">Engineering, Procurement, and Construction (EPC) services</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Partners Section -->
+    <section class="py-24 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <span class="text-gold-600 font-semibold text-sm uppercase tracking-wider">Collaboration</span>
+                <h2 class="text-4xl font-bold text-navy-900 mt-3 mb-4">Strategic Partnership Approach</h2>
+                <p class="text-gray-600 max-w-3xl mx-auto text-lg">Many of our client engagements are delivered in collaboration with our technical partners, combining local expertise with global technology</p>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-gradient-to-br from-navy-800 to-navy-900 rounded-2xl p-8 text-white">
+                    <div class="w-14 h-14 bg-gold-500 rounded-xl flex items-center justify-center mb-6">
+                        <svg class="w-7 h-7 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Direct Client Relationships</h3>
+                    <p class="text-gray-300">We maintain direct relationships with major oil companies, understanding their specific needs and delivering tailored solutions.</p>
+                </div>
+
+                <div class="bg-gradient-to-br from-navy-800 to-navy-900 rounded-2xl p-8 text-white">
+                    <div class="w-14 h-14 bg-gold-500 rounded-xl flex items-center justify-center mb-6">
+                        <svg class="w-7 h-7 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Subcontractor Excellence</h3>
+                    <p class="text-gray-300">As trusted subcontractors to major service companies like AOS and Geoplex, we deliver specialized services with precision.</p>
+                </div>
+
+                <div class="bg-gradient-to-br from-navy-800 to-navy-900 rounded-2xl p-8 text-white">
+                    <div class="w-14 h-14 bg-gold-500 rounded-xl flex items-center justify-center mb-6">
+                        <svg class="w-7 h-7 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Joint Operations</h3>
+                    <p class="text-gray-300">We participate in joint operations with other industry players, leveraging combined expertise for complex projects.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Image Section -->
+    <section class="py-24 bg-navy-900">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid lg:grid-cols-2 gap-12 items-center">
+                <div>
+                    <span class="text-gold-400 font-semibold text-sm uppercase tracking-wider">Our Commitment</span>
+                    <h2 class="text-4xl font-bold text-white mt-3 mb-6">Building Lasting Partnerships</h2>
+                    <p class="text-gray-300 text-lg leading-relaxed mb-6">Our client relationships are built on trust, reliability, and consistent delivery of quality services. We understand the unique challenges of the Nigerian oil and gas industry and work closely with our clients to develop solutions that meet their specific needs.</p>
+                    <p class="text-gray-300 leading-relaxed mb-8">Whether serving as a primary contractor or valued subcontractor, Nedec Projects Limited maintains the highest standards of professionalism and technical excellence in every engagement.</p>
+                    <a href="contact.html" class="inline-flex items-center px-8 py-4 bg-gold-500 hover:bg-gold-600 text-white font-semibold rounded-lg transition-all">
+                        Become Our Client
+                        <svg class="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
+                        </svg>
+                    </a>
+                </div>
+                <div class="relative">
+                    <img src="https://images.unsplash.com/photo-1518709766631-a6a7f45921c3?w=800&q=80" alt="Oil and Gas Partnership" class="rounded-2xl shadow-2xl">
+                    <div class="absolute -bottom-6 -left-6 bg-gold-500 text-white p-6 rounded-xl shadow-xl hidden sm:block">
+                        <div class="text-3xl font-bold">10+</div>
+                        <div class="text-sm opacity-90">Major Oil & Gas Clients</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="py-24 bg-navy-50">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="text-4xl font-bold text-navy-900 mb-6">Ready to Partner With Us?</h2>
+            <p class="text-xl text-gray-600 mb-10">Join our growing list of satisfied clients who trust Nedec for their oilfield service needs</p>
+            <div class="flex flex-wrap justify-center gap-4">
+                <a href="contact.html" class="inline-flex items-center px-8 py-4 bg-gold-500 hover:bg-gold-600 text-white font-semibold rounded-lg transition-all">
+                    Get In Touch
+                    <svg class="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
+                    </svg>
+                </a>
+                <a href="services.html" class="inline-flex items-center px-8 py-4 bg-white border-2 border-navy-900 hover:bg-navy-900 hover:text-white text-navy-900 font-semibold rounded-lg transition-all">
+                    Our Services
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-navy-950 text-white pt-20 pb-8">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
+                <div>
+                    <div class="flex items-center space-x-3 mb-6">
+                        <div class="w-12 h-12 bg-gradient-to-br from-gold-500 to-gold-600 rounded-lg flex items-center justify-center">
+                            <span class="text-white font-bold text-xl">N</span>
+                        </div>
+                        <div>
+                            <span class="text-xl font-bold">Nedec</span>
+                            <span class="text-sm text-gold-400 block -mt-1">Projects Limited</span>
+                        </div>
+                    </div>
+                    <p class="text-gray-400 leading-relaxed mb-6">Indigenous Nigerian oilfield service company delivering excellence since 2005.</p>
+                </div>
+
+                <div>
+                    <h3 class="text-lg font-semibold mb-6">Quick Links</h3>
+                    <ul class="space-y-3">
+                        <li><a href="index.html" class="text-gray-400 hover:text-gold-400 transition-colors">Home</a></li>
+                        <li><a href="about.html" class="text-gray-400 hover:text-gold-400 transition-colors">About Us</a></li>
+                        <li><a href="services.html" class="text-gray-400 hover:text-gold-400 transition-colors">Services</a></li>
+                        <li><a href="certifications.html" class="text-gray-400 hover:text-gold-400 transition-colors">Certifications</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3 class="text-lg font-semibold mb-6">Services</h3>
+                    <ul class="space-y-3">
+                        <li><a href="services.html" class="text-gray-400 hover:text-gold-400 transition-colors">Well Completion</a></li>
+                        <li><a href="services.html" class="text-gray-400 hover:text-gold-400 transition-colors">Wireline Services</a></li>
+                        <li><a href="services.html" class="text-gray-400 hover:text-gold-400 transition-colors">Equipment Supply</a></li>
+                        <li><a href="services.html" class="text-gray-400 hover:text-gold-400 transition-colors">Civil Construction</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3 class="text-lg font-semibold mb-6">Contact</h3>
+                    <ul class="space-y-4">
+                        <li class="flex items-start">
+                            <svg class="w-5 h-5 text-gold-400 mt-1 mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path>
+                            </svg>
+                            <span class="text-gray-400">Plot 231, Trans-Amadi Industrial Layout, Port Harcourt</span>
+                        </li>
+                        <li class="flex items-center">
+                            <svg class="w-5 h-5 text-gold-400 mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path>
+                            </svg>
+                            <span class="text-gray-400">09033689123, 08095026958</span>
+                        </li>
+                        <li class="flex items-center">
+                            <svg class="w-5 h-5 text-gold-400 mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
+                            </svg>
+                            <span class="text-gray-400">info@nedecng.com</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="border-t border-navy-800 pt-8">
+                <div class="flex flex-col md:flex-row justify-between items-center">
+                    <p class="text-gray-500 text-sm mb-4 md:mb-0">© 2025 Nedec Projects Limited. All rights reserved. RC 620882</p>
+                    <div class="flex space-x-6 text-sm">
+                        <a href="#" class="text-gray-500 hover:text-gold-400 transition-colors">Privacy Policy</a>
+                        <a href="#" class="text-gray-500 hover:text-gold-400 transition-colors">Terms of Service</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        const mobileMenuBtn = document.getElementById('mobile-menu-btn');
+        const mobileMenu = document.getElementById('mobile-menu');
+        const menuIcon = document.getElementById('menu-icon');
+
+        mobileMenuBtn.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+            if (mobileMenu.classList.contains('hidden')) {
+                menuIcon.setAttribute('d', 'M4 6h16M4 12h16M4 18h16');
+            } else {
+                menuIcon.setAttribute('d', 'M6 18L18 6M6 6l12 12');
+            }
+        });
+    </script>
+</body>
+</html>
